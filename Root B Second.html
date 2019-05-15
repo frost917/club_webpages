@@ -2,13 +2,14 @@
 	<head>
 		<meta charset = "utf-8">
 		<title>
-			Root C
+			Root B
 		</title>
 	</head>
-	
 	<body>
 		<h1>
-옛날에 해외여행을 갔던 곳이 어디었지...?<br>
+난 결혼을 하지 않아 자식이 없다.<br>
+그리고 난 내 유산을 아무에게나 줄 생각도 없다.<br>
+...내 유산을 이어받을 사람을 뭐라 했었지...?
 </h1>
 		<input type="text" id="answer"><br>
 		<button type="button"  onclick = "isTrue()">제출</button>
@@ -16,10 +17,10 @@
 function isTrue() 
 {
 	let txt = document.getElementById("answer").value;
-	if(txt == "포르투갈")
+	if(txt == "상속자")
 	{
 		alert("정답입니다.");
-		location.href="Sanswered.html.1";
+		location.href="Root B Thired.html";
 	}
 	else
 		alert("오답입니다.");

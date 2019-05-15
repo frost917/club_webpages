@@ -2,25 +2,26 @@
 	<head>
 		<meta charset = "utf-8">
 		<title>
-			Root B
+			Root A
 		</title>
 	</head>
+	
 	<body>
 		<h1>
-난 결혼을 하지 않아 자식이 없다.<br>
-그리고 난 내 유산을 아무에게나 줄 생각도 없다.<br>
-...내 유산을 이어받을 사람을 뭐라 했었지...?
-</h1>
+			나는 젊었을 때 해커였지만 불법은 아니었다.<br>
+			그런 나의 직업은 어떤 해커였지...?<br>
+		</h1>
 		<input type="text" id="answer"><br>
 		<button type="button"  onclick = "isTrue()">제출</button>
+			답은 한글로 적어주세요.<br>
 		<script type="text/javascript">
 function isTrue() 
 {
 	let txt = document.getElementById("answer").value;
-	if(txt == "상속자")
+	if(txt == "화이트 해커" || txt == "화이트해커")
 	{
 		alert("정답입니다.");
-		location.href="Sanswered.html";
+		location.href="Root A Thired.html";
 	}
 	else
 		alert("오답입니다.");

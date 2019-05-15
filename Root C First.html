@@ -2,14 +2,13 @@
 	<head>
 		<meta charset = "utf-8">
 		<title>
-			Root A
+			Root C
 		</title>
 	</head>
-	<!--2번 째 퀴즈의 답은 child gilgamesh-->
 	<body>
 		<h1>
-			최근에 누군가가 자주 내 뒤를 몰래 쫓아오고 있다.<br>
-			이놈들을 뭐라 불렀었지...<br>
+			누가 나를 죽인다고 협박하고 있다.<br>
+			고소를 했을 때 누구에게 변호를 맡겨야 했더라...?
 		</h1>
 		<input type="text" id="answer"><br>
 		<button type="button"  onclick = "isTrue()">제출</button>
@@ -17,10 +16,10 @@
 function isTrue() 
 {
 	let txt = document.getElementById("answer").value;
-	if(txt == "스토커")
+	if(txt == "변호사")
 	{
 		alert("정답입니다.");
-		location.href="Fanswered.html.2";
+		location.href="Root C Second.html";
 	}
 	else
 		alert("오답입니다.");
