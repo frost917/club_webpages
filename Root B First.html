@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>
+			Root C
+		</title>
+	</head>
+<!--3번째 퀴즈 답은 child gilgamesh-->
+	<body>
+		<h1>
+			누가 나를 죽인다고 협박하고 있다.<br>
+			고소를 했을 때 누구에게 변호를 맡겨야 했더라...?
+		</h1>
+		<input type="text" id="answer"><br>
+		<button type="button"  onclick = "isTrue()">제출</button>
+		<script type="text/javascript">
+function isTrue() 
+{
+	let txt = document.getElementById("answer").value;
+	if(txt == "변호사")
+	{
+		alert("정답입니다.");
+		location.href="Fanswered.html.1";
+	}
+	else
+		alert("오답입니다.");
+}
+		</script>
+	</body>
+</html>

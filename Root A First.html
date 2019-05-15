@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>
+			Root B
+		</title>
+	</head>
+	<!--3번 째 퀴즈의 답은 child gilgamesh-->
+	<body>
+		<h1>
+			나와 스승님은 최근 지능, 의지, 기억 등 정신적인 능력이 현저하게 감퇴하는 병을 겪고 있다.<br>
+			병의 이름이 뭐였지...<br>
+		</h1>
+		<input type="text" id="answer"><br>
+		<button type="button"  onclick = "isTrue()">제출</button>
+		<script type="text/javascript">
+function isTrue() 
+{
+	let txt = document.getElementById("answer").value;
+	if(txt == "치매")
+	{
+		alert("정답입니다.");
+		location.href="Fanswered.html";
+	}
+	else
+		alert("오답입니다.");
+}
+		</script>
+	</body>
+</html>

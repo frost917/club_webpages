@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>
+			Root A
+		</title>
+	</head>
+	<!--2번 째 퀴즈의 답은 child gilgamesh-->
+	<body>
+		<h1>
+			최근에 누군가가 자주 내 뒤를 몰래 쫓아오고 있다.<br>
+			이놈들을 뭐라 불렀었지...<br>
+		</h1>
+		<input type="text" id="answer"><br>
+		<button type="button"  onclick = "isTrue()">제출</button>
+		<script type="text/javascript">
+function isTrue() 
+{
+	let txt = document.getElementById("answer").value;
+	if(txt == "스토커")
+	{
+		alert("정답입니다.");
+		location.href="Fanswered.html.2";
+	}
+	else
+		alert("오답입니다.");
+}
+		</script>
+	</body>
+</html>

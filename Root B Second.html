@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>
+			Root C
+		</title>
+	</head>
+	
+	<body>
+		<h1>
+옛날에 해외여행을 갔던 곳이 어디었지...?<br>
+</h1>
+		<input type="text" id="answer"><br>
+		<button type="button"  onclick = "isTrue()">제출</button>
+		<script type="text/javascript">
+function isTrue() 
+{
+	let txt = document.getElementById("answer").value;
+	if(txt == "포르투갈")
+	{
+		alert("정답입니다.");
+		location.href="Sanswered.html.1";
+	}
+	else
+		alert("오답입니다.");
+}
+		</script>
+	</body>
+</html>

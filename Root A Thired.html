@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>
+			for club quiz.2
+		</title>
+	</head>
+	
+	<body>
+		<h1>
+지금까지 난 많은 프로그램을 만들었다.<br>
+하지만 그 프로그램을 빼앗으려는 녀석들이 자주 보이기 시작했다.<br>
+이런 놈들을 뭐라 불렀었더라...<br>
+</h1>
+		<input type="text" id="answer"><br>
+		<button type="button"  onclick = "isTrue()">제출</button>
+		<script type="text/javascript">
+function isTrue() 
+{
+	let txt = document.getElementById("answer").value;
+	if(txt == "해커")
+	{
+		alert("정답입니다.");
+		location.href="https://blog.naver.com/junparao0427";
+	}
+	else if(txt =="child gilgamesh")
+	{
+		alert("...");
+		location.href="whosad";
+	}
+	else
+		alert("오답입니다.");
+}
+		</script>
+	</body>
+</html>
